@@ -10,7 +10,7 @@ services:
         ports:
             - 9000:9000
         volumes:
-            - /var/wwww/html/pixel-leadgrease:/var/www/html/pixel-leadgrease
+            - /var/www/html/pixel-leadgrease:/var/www/html/pixel-leadgrease
         networks:
             - symfony
 
